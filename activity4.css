@@ -1,0 +1,164 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #ADD8E6;
+    color: #333;
+}
+
+.container {
+    width: 90%;
+    max-width: 1100px;
+    margin: auto;
+}
+
+.container1 {
+    width: 90%;
+    max-width: 1100px;
+    margin: auto;
+    padding: 20px; 
+    background-color: #000000; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    border-radius: 8px; 
+    display: flex; 
+    flex-direction: column; 
+    gap: 15px;
+}
+
+header {
+    background: #00a1d6;
+    padding: 20px 0;
+}
+
+.logo {
+    color: #fff;
+    font-size: 24px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+    padding-top: 10px;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.intro {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 0;
+}
+
+.text-section {
+    max-width: 600px;
+    color:  #9400D3;
+}
+
+.text-section p {
+    font-size: 16px;
+    color: #000000;
+}
+
+.text-section h2 {
+    font-size: 36px;
+    margin: 10px 0;
+}
+
+.text-section h3 {
+    font-size: 24px;
+    color: #555;
+    margin-bottom: 15px;
+}
+
+.description {
+    font-size: 16px;
+    color: #666;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.social-links a {
+    text-decoration: none;
+    color: #00a1d6;
+    margin-right: 10px;
+    padding: 5px 10px; 
+    border-radius: 4px; 
+    background-color: rgba(0, 161, 214, 0.1); 
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.image-section img {
+    width: 300px;
+    border-radius: 5px;
+    float: right;
+    margin-left: 10px;
+    margin-top: -200px;
+}
+
+
+
+/* General Section Styles */
+.content-section {
+    display: none; /* Initially hide all sections */
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 5px;
+}
+
+/* Home Section - No Background */
+#home {
+    display: block; /* Ensure Home section is displayed by default */
+    background-color: transparent; /* No background color */
+}
+
+/* Sections with white background (About, Services, Contact) */
+.content-section:not(#home) {
+    background-color: #f9f9f9; /* White background for About, Services, and Contact */
+    border: 1px solid #ccc; /* Border for these sections */
+}
+
+/* When section is visible (overrides default display: none) */
+.content-section:not([hidden]) {
+    display: block; /* Make visible */
+}
+
+/* Navigation Links */
+.nav a {
+    text-decoration: none;
+    color: #333;
+    padding: 10px;
+    font-weight: bold;
+    display: inline-block;
+    margin-right: 20px;
+}
+
+/* Active link styling */
+.nav a:hover {
+    color: #007bff;
+}
+
+/* Social Links Styling */
+.social-links a {
+    text-decoration: none;
+    margin-right: 10px;
+    color: #333;
+}
+
+.social-links a:hover {
+    color: #007bff;
+}
