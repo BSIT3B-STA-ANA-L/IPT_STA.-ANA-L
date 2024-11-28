@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leslie Gail Portfolio</title>
+    <link rel="stylesheet" href="CSS/styles.css"> <!-- External CSS -->
+</head>
+<body>
+
+    <header class="header">
+        <div class="container">
+            <h1 class="logo">Leslie Portfolio</h1>
+        </div>
+    </header>
+
+    <div class="container">
+        <nav>
+            <ul class="nav">
+                <li><a href="#" id="homeLink">Home</a></li>
+                <li><a href="#" id="aboutLink">About</a></li>
+                <li><a href="#" id="servicesLink">Services</a></li>
+                <li><a href="#" id="contactLink">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <!-- Home Section (Hidden Initially) -->
+    <section id="home" class="content-section" style="display: none;">
+        <div class="container">
+            <div class="text-section">
+                <p>Hello, I'm</p>
+                <h2>Leslie Gail G. Sta. Ana</h2>
+                <h3>Web Developer</h3>
+                <p class="description">I'm a professional freelance web developer from Navotas City. I have spent the past years crafting digital and responsive work with my client base and am always looking to develop. </p>
+            </div>
+            <div class="image-section">
+                <img src="IMG/les.jpeg" alt="Leslie Gail Picture" class="profile-img">
+            </div>
+
+            <!-- Social Links (Only show in Home section) -->
+            <div class="social-links">
+                <a href="#" class="social-link facebook">Facebook</a>
+                <a href="#" class="social-link twitter">Twitter</a>
+                <a href="#" class="social-link instagram">Instagram</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section (Hidden Initially) -->
+    <section id="about" class="content-section" style="display: none;">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>With a passion for technology and design, I specialize in creating responsive and interactive websites...</p>
+        </div>
+    </section>
+
+    <!-- Services Section (Hidden Initially) -->
+    <section id="services" class="content-section" style="display: none;">
+        <div class="container">
+            <h2>Services</h2>
+            <p>Here's a glimpse of what I can offer:</p>
+            <ul>
+                <li>Custom Website Development</li>
+                <li>E-commerce Development</li>
+                <li>Responsive Design</li>
+                <li>Web Maintenance & Support</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Contact Section (Hidden Initially) -->
+    <section id="contact" class="content-section" style="display: none;">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <p>Email: <a href="mailto:lesliegail@example.com">lesliegail@gmail.com</a></p>
+            <p>Phone: +63 912 345 6789</p>
+        </div>
+    </section>
+
+    <!-- External JS File -->
+      <script src="JS/script.js"></script>
+       <script src="JS/home.js"></script>
+</body>
+</html>
